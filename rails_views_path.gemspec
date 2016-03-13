@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["ezvy@yandex.ru"]
 
   spec.summary       = 'Add views paths in your rails controllers'
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.license       = "MIT"
+  spec.homepage      = 'https://github.com/thepry/rails_views_path'
+  spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
