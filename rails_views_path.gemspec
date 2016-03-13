@@ -6,11 +6,10 @@ require 'rails_views_path/version'
 Gem::Specification.new do |spec|
   spec.name          = "rails_views_path"
   spec.version       = RailsViewsPath::VERSION
-  spec.authors       = ["eugene"]
+  spec.authors       = ["Eugene Zviagintcev"]
   spec.email         = ["ezvy@yandex.ru"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = 'Add views paths in your rails controllers'
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
