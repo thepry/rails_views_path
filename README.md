@@ -1,6 +1,7 @@
 # RailsViewsPath
 
 This gem allows to add views path directory to controller.
+Read more [here](http://thepry.github.io/rails-controllers-hierarchy-and-views)
 
 ## Installation
 
@@ -28,6 +29,8 @@ module Users
   end
 end
 ```
+
+After that for each action Rails will look into `app/views/users/posts/` and if view is not found, into `app/views/posts/`.
 
 ## Contributing
 
